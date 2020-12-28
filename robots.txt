@@ -1,0 +1,2 @@
+User-Agent:*
+Sitemap:https://shirokuma-89.github.io/sitemap.xml
