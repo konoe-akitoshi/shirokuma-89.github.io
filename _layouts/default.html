@@ -9,13 +9,16 @@
     {% include google-analytics.html %} -->
   <!-- {% endif %} -->
   {% include loader.html %}
-  {% include header.html %}
+  <section>
+    <div id="contens">
+      {% include header.html %}
 
       {{ content }}
 
-  {% include footer.html %}
-  {% include javascripts.html %}
-
+      {% include footer.html %}
+      {% include javascripts.html %}
+    </div>
+  </section>
 </body>
 
 </html>

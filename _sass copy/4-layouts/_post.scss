@@ -1,11 +1,9 @@
 // Post
 .post {
   margin-bottom: 20px;
-  border-radius: $global-radius2;
 }
 
 .post-image-box {
-  border-radius: $global-radius2;
   background: $black;
   &.reveal-in {
     .post-image {
@@ -15,7 +13,6 @@
 }
 
 .post-image {
-  border-radius: $global-radius2;
   min-height: 430px;
   margin-bottom: 30px;
   background-size: cover;
@@ -41,7 +38,6 @@
 .post-content {
   padding: 40px 15px;
   box-shadow: 0 9px 18px 0 rgba(0,0,0,0.25);
-  border-radius: $global-radius2;
 }
 
 .post-head, .post-body {
@@ -55,7 +51,6 @@
     margin-bottom: 20px;
     text-align: center;
     .tag {
-      border-radius: $global-radius;
       display: inline-block;
       padding: 5px 15px;
       margin-right: 5px;
