@@ -1,24 +1,28 @@
 ---
 layout: page
 title: PROFILE
-image: 08.jpg
+image: profile.jpg
 permalink: /PROFILE/
 ---
 
-My name is Natali Anderson. I'm an actress. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+## ご挨拶
 
-#### Austin scenester...
-<small>2008 - 2017</small>
+こんにちは！しろくま＠胡瓜と申します！  
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
+中部地方に生息している、パソコンとか電子工作とかに興味がある白熊です。ロボカップジュニア・サッカー・ライトウェイト部門に出場している「Root41」のハードウェア担当やってます。
 
-#### Vinyl hexagon before...
-<small>2001 - 2008</small>
+ここには日々の雑記帳的な感じで、技術に関することメインに、時々写真や動画など色々ゆるーくつぶやいていきます。吠えたり襲ったりしないので、みんなよろしく！
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
+## 経歴
 
-#### La croix you probably...
-<small>1995 - 2000</small>
+### 2014年
 
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
+- 初めてロボカップジュニアに参加。ブロック準優勝。全国大会ベスト16。
+
+### 2017年
+
+- Root41をハジメ君（Twitter:[@akapon03_hazime](https://www.twitter.com/akapon03_hazime)）と結成。全国大会出場。
+
+### 2020年
+
+- 2月に開催されたブロック大会でRoot41として優勝。また、ロボカップジュニア国際ポスターセッションで「Most Popular Poster」を獲得。

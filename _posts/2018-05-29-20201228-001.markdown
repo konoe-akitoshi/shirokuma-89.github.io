@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "初めまして！"
+date:   2020-12-28
+image:  2020-12-28/top.jpg
+tags:   [雑記]
+---
+初めまして！しろくま＠胡瓜です。
+
+Qiitaに初めて記事を投稿したのをきっかけに、「記事を書くって楽しい！」って思うようになり、折角なので勉強もかねてGitHub PagesとJekyllでブログを立ち上げました。よろしくお願いします。
+
+## しろくま＠胡瓜 について
+
+僕の名前はしろくま＠胡瓜（読み:しろくまきゅうり）です。＠は全角です。
+
+2014年からロボカップジュニアという競技に参加しています。全国大会の出場経験は6回（うち一回はコロナで中止）です。
+
+こんな感じのロボットを作っています。
+  
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Root41 2020<a href="https://twitter.com/hashtag/Root41_RCJJ?src=hash&amp;ref_src=twsrc%5Etfw">#Root41_RCJJ</a> <a href="https://twitter.com/hashtag/RCJJ2020_wakayama?src=hash&amp;ref_src=twsrc%5Etfw">#RCJJ2020_wakayama</a> <a href="https://t.co/VzbC7k0Jdx">pic.twitter.com/VzbC7k0Jdx</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1253852634349330432?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+  
+さて、僕はこうやって記事を書くのは初めてなので、いろいろと足りないところも多いと思います。十分気を付けるつもりではいますが、色々とミスをしてしまうことも多いかもしれません。是非その時はおしえていただけたら嬉しいです。
+
+## 最後に
+  
+ロボット以外にもプログラミングや電子工作、一眼レフや動画編集、その他雑記いろいろ書いていきたいと思います！みんな、仲良くしてね！

@@ -20,7 +20,7 @@ layout: default
 						<h2 class="article-title"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
 						<p class="article-excerpt">{% if post.description %}{{ post.description | strip_html | truncate: 163 }}{%
 							else %}{{ post.content | strip_html | truncate: 163 }}{% endif %}</p>
-						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">Read More</a>
+						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">続きを読む</a>
 					</div>
 				</div>
 			</article> <!-- /.article-first -->
@@ -43,7 +43,7 @@ layout: default
 							<a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{"
 								/img/" | prepend: site.baseurl | append : post.image}})">
 								<div class="image-overlay">
-									<span class="image-overlay-text">{{post.title | slice: 0}}</span>
+									<!-- <span class="image-overlay-text">{{post.title | slice: 0}}</span> -->
 								</div>
 							</a>
 						</div>
