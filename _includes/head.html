@@ -37,6 +37,7 @@
   <meta name="twitter:image" content="{{ site.url }}img/logo.png" />
 {% endif %}
 
+<meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <style>
   {% capture include_to_scssify %}
