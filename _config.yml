@@ -47,6 +47,9 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
+gems:
+  - jekyll-sitemap
+
 paginate: 7
 paginate_path: "/page/:num"
 
