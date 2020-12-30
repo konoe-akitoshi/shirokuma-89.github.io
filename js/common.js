@@ -133,8 +133,8 @@ $(function() {
 });
 
 $( window ).on( 'load', function () { // ?????????????
-  $( '#loader-bg' ).delay( 1500 ).fadeOut( 800 );// ?????????
-  $( '#loader' ).delay( 1500 ).fadeOut( 300 );
+  $( '#loader-bg' ).delay( 100 ).fadeOut( 400 );// ?????????
+  $( '#loader' ).delay( 100 ).fadeOut( 300 );
   $( '#contens' ).css( 'display', 'block' );// ??????????
   $( 'section' ).css( 'display', 'block' );
 } );

@@ -289,15 +289,18 @@
 }
 
 .article {
+  border-radius: $global-radius2;
   display: flex;
   margin-bottom: 25px;
   &:hover {
     .article-image {
+      border-radius: $global-radius2;
       .image-overlay-text {
         opacity: 1;
       }
     }
     .article-image {
+      border-radius: $global-radius2;
       .image-overlay {
         opacity: 0.5;
         width: 100%;
@@ -309,9 +312,11 @@
     border-bottom: 2px solid $border-color;
   }
   .article-head {
+    border-radius: $global-radius2;
     background: $black;
   }
   .article-image {
+    border-radius: $global-radius2;
     position: relative;
     display: block;
     margin-bottom: 20px;
@@ -321,11 +326,13 @@
     background-color: $black;
     box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.25);
     &:before {
+      border-radius: $global-radius2;
       content: "";
       display: table;
       padding-top: 75%;
     }
     .image-overlay {
+      border-radius: $global-radius2;
       position: absolute;
       top: 0;
       right: 0;
