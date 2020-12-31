@@ -1,0 +1,90 @@
+---
+layout: post
+title:  "2020年が終わるらしいです"
+date:   2020-12-31
+image:  003/top.jpg
+tags:  [雑記]
+---
+
+どうも！しろくま＠胡瓜です。イェイ！
+
+2020年、もう少しで終わってしまうらしいです。今年は帰省がないのであまり実感がわきませんが、なんかあっという間でした。
+
+## 振り返り
+
+### 1月
+
+基本的に寝てました。思い出とか特にないです。にゃーん。
+
+### 2月
+
+ブロック大会で優勝しました！ギリギリでしたがとても嬉しかったです。優秀プレゼンテーション賞も受賞することができました。特にプレゼンテーション賞はRoot41の活動を始めてから一回も欠かしたことがないので、その点においてもうれしかったです。
+
+また、この月に一眼レフ（Nikon D5300）を購入しました。僕の世界を変えた1台です。
+
+### 3月
+
+休校になりました。大量の宿題が出され、なんか生きている心地がしませんでした。時々気分転換に、人のいない自然盛りだくさんのところへ足を運び、写真撮影とかしました。
+
+![]({{site.baseurl}}/img/003/001.jpg)
+
+![]({{site.baseurl}}/img/003/002.jpg)
+
+### 4月
+
+新入生の入学式があったので、代表挨拶だけしてきました。そのあとすぐに休校になったので、思い出とか特にないです。ただ休みの分、ロボット製作が一気に進んだ記憶があります。このころのツイート数はほかの月と比べ異常に多かったです。進捗もりもり。
+
+<center>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E4%BB%8A%E6%97%A5%E3%81%8C%E5%85%A8%E5%9B%BD%E5%A4%A7%E4%BC%9A%E3%81%AE%E3%81%AF%E3%81%9A%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7%E3%81%BF%E3%82%93%E3%81%AA%E3%81%AE%E6%A9%9F%E4%BD%93%E6%99%92%E3%81%9D%E3%81%86?src=hash&amp;ref_src=twsrc%5Etfw">#今日が全国大会のはずだったのでみんなの機体晒そう</a><br>二台とも正常動作するようになったのが一昨日なので見ごたえあるものではないですが一応。 <a href="https://t.co/UhUKuyW8uD">pic.twitter.com/UhUKuyW8uD</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1254276224362266626?ref_src=twsrc%5Etfw">April 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+### 5月
+
+授業のオンライン配信が始まりました。学校再開予定が6月に設定され、手を付けていなかった課題に手を付けました。本当に必死で頑張りました。あれほど勉強した事はなかった気がします。
+
+### 6月
+
+学校が再開になりました。久しぶりに学校の先生方と会えてとても嬉しかったです。また、GUJO ROBOT CLUB勢とも久しぶりに会えました。
+
+また、初めてApple社のWWDCを見ました。感動しました。もう、なんか、やばいです。言葉が出ません。はぁはぁ。うおぉぉぉぉぉおお！
+
+### 7月
+
+国際ロボカップジュニアのポスターセッションで「Most Popular Poster賞」をGetしました。やったぁ！
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Thank you so much!!! :) <a href="https://t.co/jNX2eHVWBJ">pic.twitter.com/jNX2eHVWBJ</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1281900328468676608?ref_src=twsrc%5Etfw">July 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+### 8月
+
+Virtural Box上でLinuxを動かすことに挑戦してみました。あの頃は何がしたかったのか分かりませんが、面白かったです。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/AlterLinux?src=hash&amp;ref_src=twsrc%5Etfw">#AlterLinux</a><br>昨日のノリでAlterLinuxも試してみました！こちらのほうが軽量で使いやすいです。UIもきれいなので僕的にはこちらのほうが好みかもしれません。（←インストールしたはいいが何をするのかすら決めていない人） <a href="https://t.co/ciKLWLd0Bw">pic.twitter.com/ciKLWLd0Bw</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1293062780019331072?ref_src=twsrc%5Etfw">August 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+### 9月
+
+ハジメ君と僕とでテスト週間ラッシュが来て、ほとんど進捗がありませんでした。勉強が嫌いなわけではないです。自分の好きな分野の勉強がしたいだけなんです。
+
+### 10月
+
+色々第2波とかいわれてた影響で、全然できていなかったハジメ君との合同練習をやっとすることができました。ここからロボット製作が再始動していきます。
+
+<center>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">本日は久しぶりにハジメ君(<a href="https://twitter.com/akapon03_hazime?ref_src=twsrc%5Etfw">@akapon03_hazime</a>)と合同練習です！8月に愛知県が独自に緊急事態宣言を出してから会えていませんでした。Root41、再始動！<a href="https://twitter.com/hashtag/Root41_RCJJ?src=hash&amp;ref_src=twsrc%5Etfw">#Root41_RCJJ</a> <a href="https://t.co/swmcKX8hOp">pic.twitter.com/swmcKX8hOp</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1314792119823814656?ref_src=twsrc%5Etfw">October 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+### 11月
+
+学校で文化祭がありました。そのオープニング映像を担当させていただきました。6月ごろから制作をはじめ合計100時間以上は余裕でかかったと思います。AviUtlでモーショングラフィックス（もどき）をやったのですが、動画編集の楽しさと難しさを学びました。時間をかけて一つのものに集中するということが素敵だなと感じた良い経験でした。
+
+### 12月
+
+久しぶりに瑞浪市のサイエンスワールドさんで練習ができました。新規講座生の子たちとも会えてとても楽しかったです。世の中は「リモートで！」的な波になってますが、やっぱり「会う」って大事ですよね。そ、そう思いませんか？
+
+## 成長したこと
+
+今年を振り返って一文字で表すなら、「錬」だったと思います。時間をかけて、大きな問題や課題に取り組むということが多かったです。また、全てが思い通りにいかない情勢の中、少しでもできることを探ろうと模索した一年でした。去年と比べ、「突き詰める」という事がよりできるようになり、自分に少しだけ自信がついた気がします。
+
+## 最後
+
+あともう少しで2020年が終わります。なんだかんだいって、上手く乗り切れた年でした。来年は、みんなして顔を覆い隠す必要がなくなるといいなと思います。
+
+では、良い新年をお迎えください！おやすみ！
