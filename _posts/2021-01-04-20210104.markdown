@@ -1,50 +1,59 @@
 ---
 layout: post
-title:  "Google先生に求愛した話"
+title:  "VS CodeとArduinoが喧嘩した話"
 date:   2021-01-04
-image:  005/top.jpg
-tags:  [GitHub Pages,Google]
+image:  004/top.jpg
+tags:  [Arduino, VS Code]
 ---
-こんにちは！しろくま＠胡瓜です！
+遅くなりましたが、あけましておめでとうございます！しろくま＠胡瓜です。
 
-冬休み、皆さん楽しんでますか？僕はそりゃぁもう、enjoy中のenjoyです。
+冬休みがもう終わってしまいます。冬休み明けにすぐ定期テストがあるので相当まずいです。だって、冬休みずっと遊んでました…
 
-## 本題
+## 化けた件について
 
-このサイトはできたばっかりでブログタイトルの「しろくま＠胡瓜's Blog」と検索しても、検索結果に表示されません。こまったなぁ。
+自分はVS CodeにArduino拡張機能を入れてArduinoのプログラミングを行っているのですが、先日コンパイルしてみると、こんな現象が起こりました。
 
-## 解決に向けて
+![]({{site.baseurl}}/img/004/001.png)
 
-物は試しということで、取り合えず自分のサイトを以下のワードで調べてみることにしました。
+文字化けしてます(´;ω;｀)
 
-> site:https://shirokuma-89.github.io/
+## 環境
 
-結果がこちら。
+- Windows10 Home 20H2
+- Visual Studio Code 1.52.1
+- 拡張:Arduino(Microsoft) 0.3.4
+- やる気もりもりの白熊
+  
+## 解決方法
 
-![]({{site.baseurl}}/img/005/001.png)
+まず、以下のディレクトリにアクセスします。
 
-なるほど。解決策を提示してくれました。そのサイトを訪れてみると、
-
-![]({{site.baseurl}}/img/005/002.png)
-
-こんな感じのサイトでした。すでにGoogleアカウントは取得＆ログイン済みですので、こちらの「URLプリフィックス」というところに、`https://shirokuma-89.github.io/`を入力してみます。
-
-{: align="center"}
-![]({{site.baseurl}}/img/005/003.png)
-
-サイトの所有権を確認したいそうです。HTMLタグを選択し、自分のサイトの`head.html`にmetaタグをコピペします。
-
-コピペしてPushした後に確認を押すと、、、
-
-{: align="center"}
-![]({{site.baseurl}}/img/005/004.png)
-
-出来ました！ただし、すぐに検索しても検索結果は表示されないようです。
+{% highlight none%}
+%USERPROFILE%\.vscode\extensions
+{% endhighlight %}
 
 
-<!-- {% highlight c %}
-int main(void){
-  return 0;
-}
-{% endhighlight %} -->
+すると、中に
+{% highlight js %}
+vsciot-vscode.vscode-arduino-hogehoge
+{% endhighlight %}
+というフォルダがあるので、その中にさらにある、
+{% highlight js %}
+./out/src/common/util.js
+{% endhighlight %}を開きます。
 
+そして、そのファイルの215行目からの
+
+<script src="https://gist.github.com/shirokuma-89/76ac62d4f42b0706b4755ff6d9f52e1b.js"></script>
+
+を丸ごとコメントアウトします。
+
+そして、VS Codeを再起動して再コンパイルしてみると
+
+![]({{site.baseurl}}/img/004/002.png)
+
+勝利です！
+
+## おわりに
+
+おわりです。Bye！

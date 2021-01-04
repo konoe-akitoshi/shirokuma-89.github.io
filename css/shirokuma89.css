@@ -4,13 +4,14 @@
   position: absolute;
 }
 
-.shi-center{
+.shi-center {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
 }
+
 .scaling-squares-spinner, .scaling-squares-spinner * {
   box-sizing: border-box;
 }
@@ -55,13 +56,10 @@
   animation-name: scaling-squares-spinner-animation-child-4;
 }
 
-
 @keyframes scaling-squares-animation {
-
   50% {
     transform: rotate(90deg);
   }
-
   100% {
     transform: rotate(180deg);
   }
@@ -69,30 +67,30 @@
 
 @keyframes scaling-squares-spinner-animation-child-1 {
   50% {
-    transform: translate(150%,150%) scale(2,2);
+    transform: translate(150%, 150%) scale(2, 2);
   }
 }
 
 @keyframes scaling-squares-spinner-animation-child-2 {
   50% {
-    transform: translate(-150%,150%) scale(2,2);
+    transform: translate(-150%, 150%) scale(2, 2);
   }
 }
 
 @keyframes scaling-squares-spinner-animation-child-3 {
   50% {
-    transform: translate(-150%,-150%) scale(2,2);
+    transform: translate(-150%, -150%) scale(2, 2);
   }
 }
 
 @keyframes scaling-squares-spinner-animation-child-4 {
   50% {
-    transform: translate(150%,-150%) scale(2,2);
+    transform: translate(150%, -150%) scale(2, 2);
   }
 }
 
-@keyframes load{
-  50%{
+@keyframes load {
+  50% {
     width: 5px;
     margin-right: 95px;
     opacity: .1;
@@ -100,15 +98,49 @@
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: linear-gradient( 180deg, rgb(24, 103, 107), rgb(40, 71, 161));
-    /* border-radius: 6px; */
+  background: linear-gradient( 225deg, rgb(24, 103, 107), rgb(40, 71, 161));
+  /* border-radius: 6px; */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #25b9b9;
-    border-radius: 5px;
+  background: #25b9b9;
+  border-radius: 5px;
+}
+
+.gist-data {
+  border: none !important;
+}
+
+.gist-file {
+  border: none !important;
+}
+
+.gist {
+  border: none !important;
+}
+
+.gist tr:first-child td {
+  padding-top: 15px !important;
+}
+
+/* コードエリアの下部の余白を開ける */
+
+.gist tr:last-child td {
+  padding-bottom: 15px !important;
+}
+
+.gist-meta {
+  /* background:#0f2135!important; */
+  background: linear-gradient( 45deg, rgb(21, 69, 71), rgb(26, 42, 88))!important;
+  color: rgba(255, 255, 255, 0.692) !important;
+}
+
+.gist-meta a {
+  /* background:#202a38!important; */
+  color: rgba(255, 255, 255, 0.692) !important;
 }

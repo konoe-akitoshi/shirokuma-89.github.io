@@ -25,4 +25,5 @@ permalink: /PROFILE/
 
 ### 2020年
 
-- 2月に開催されたブロック大会でRoot41として優勝。また、ロボカップジュニア国際ポスターセッションで「Most Popular Poster」を獲得。
+- 2月に開催されたブロック大会でRoot41として優勝。
+- ロボカップジュニア国際ポスターセッションで「Most Popular Poster」を獲得。
