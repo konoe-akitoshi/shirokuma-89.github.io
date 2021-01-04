@@ -4,7 +4,6 @@ title: PROFILE
 image: profile.jpg
 permalink: /PROFILE/
 ---
-
 ## ご挨拶
 
 こんにちは！しろくま＠胡瓜と申します！  
