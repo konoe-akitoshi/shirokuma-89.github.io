@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Pythonでおみくじをつくろう"
+date:   2021-01-06
+image:  006/top.jpg
+tags:  [Python]
+---
+
+こんにちは！まだ冬休みの課題終わってないしろくま＠胡瓜です！もう鏡餅の裏白もなんかやる気がなくなってきています。
+
+## 冬休みがとうとう終わる
+
+楽しかった冬休みもとうとう終わってしまいます。自分にあった変化と言えば、昼夜が逆転したくらいしかないです。それと、このブログを始めたことも大きな変化だったかもしれません。Jekyllでサイトを作るのは結構大変でしたが、良い経験になりました。開発については是非こちらのQiita記事を読んでみてください！
+
+<center>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">JekyllとGitHub Pagesでブログを作る＠初期設定編 <a href="https://t.co/v3X3nRH7HZ">https://t.co/v3X3nRH7HZ</a> <a href="https://twitter.com/hashtag/Qiita?src=hash&amp;ref_src=twsrc%5Etfw">#Qiita</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1343465264810102785?ref_src=twsrc%5Etfw">December 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+<center>
+<blockquote class="twitter-tweet" data-conversation="none" data-theme="dark"><p lang="ja" dir="ltr">JekyllとGitHub Pagesでブログを作る＠テーマ設定編 <a href="https://t.co/kaWPPBu4M8">https://t.co/kaWPPBu4M8</a> <a href="https://twitter.com/hashtag/Qiita?src=hash&amp;ref_src=twsrc%5Etfw">#Qiita</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1343465266815016960?ref_src=twsrc%5Etfw">December 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+## ブロック大会は目の前に
+
+岐阜ブロック大会が行われる1月16日と17日が徐々に現実味を帯びてくるところまで迫ってきています。最近郡上勢のロボットの動きをTwitter等で覗いてみると、、、動きがめちゃくちゃいいので正直焦っています。
+
+Li-Poバッテリーの追加注文も行わなければなりません。プレゼンシートもつくらなければいけません。そして、ブロック大会の次の日に待っている学年末テスト対策もしなければなりません。スケジュールが鬼です。デスマ確定ですね。ｱﾊﾊ。
+
+前々回の記事で製作したオムニホイールもまだ実際に動かせていません。さぁ、どうなってしまうのでしょうか。
+
+## 本題
+
+やっと本題に入ります。今年は某ウイルスの影響で初詣に行けなかった人もいるかもしれません。おみくじひけませんでしたね。ぴよぴよ🐥
+
+うちの弟が「おみくじひきたい」って騒いでたのでPythonでおみくじを作ってあげました。なお、実際に弟にやらせたものから若干改良はしているので悪しからず。
+
+## 環境
+
+- Windows10 Home 20H2
+- Python 3.6
+- 課題に追われる白熊
+
+## random.randint(int, int)関数とは
+
+範囲を指定して整数の乱数を作成することができる関数です。プログラムの最初にインポートが必要です。
+
+## できたもの
+
+<script src="https://gist.github.com/shirokuma-89/1c4015d294843255020d739c736d0588.js"></script>
+
+実行結果は、あえて書かなくても頭の中で想像できると思うので割愛します。ランダムな整数を作成して、それに対応するメッセージを配列から引っ張り出して`print()`するだけです。
+
+## 実行方法
+
+適当なディレクトリに保存して、コマンドプロンプトとかで実行してあげましょう。VS Codeとかでやってもいいですが、どうしてもエディタが見え見えなので、もしほかの友達とか家族にやらせる場合には向かないと思います。
+
+## 感想
+
+自分でおみくじの内容も書いたりしているので、実際に自分でやってみても大してわくわくしませんでした。なんて言えばいいんでしょうか、玉手箱の中身を最初から知っていたかのような感覚です。
+
+というわけで、Pythonでおみくじを作った話でした！（強引）Pythonに関しては知識が本当に皆無なので、ミスがあったら（むしろ無いわけがないとすら思っています。）Twitterで僕にDMするか、もしくはメンションで~~晒して~~教えてくれたらうれしいです！
+
+では、またね！
+
