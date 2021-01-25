@@ -3,7 +3,7 @@ layout: post
 title:  "日本語ワープロ検定"
 date:   2021-01-24
 image:  009/top.jpg
-tags:  [パソコン]
+tags:  [雑記]
 ---
 
 おはようございます！最近Shiftキーに嫌われているしろくま＠胡瓜です。
