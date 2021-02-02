@@ -72,3 +72,16 @@ PlatformIOで、ボードに「ST Nucleo F446RE」、フレームワークに「
 NucleoでI2Cも~~単純に地磁気センサのアドレスを間違えて2時間ほど悩んでいた頭悪い人がいるそうですが~~Arduinoと要領は同じ感じでできました。初めてでしたが、特にハマることもなく良かったです。では某ウイルスにLet's 鬼は外！
 
 あっ、そういえば豆は皆さん食べましたか？
+
+## 追記
+
+記事をあげたところ、早速このようなご指摘が。
+<center><blockquote class="twitter-tweet" data-conversation="none" data-theme="dark"><p lang="ja" dir="ltr">あとは日本の地磁気の偏角のズレを修正すれば完璧 <a href="https://t.co/XxHmua6yza">pic.twitter.com/XxHmua6yza</a></p>&mdash; APES Techのでかい方 (@APESTechokinawa) <a href="https://twitter.com/APESTechokinawa/status/1356550413286219777?ref_src=twsrc%5Etfw">February 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+やってみましょう（笑）
+
+[国土地理院](http://maps.gsi.go.jp/#5/35.692995/139.702148/&base=std&ls=std%7Cjikizu2015_chijiki_d&blend=0&disp=11&lcd=jikizu2015_chijiki_d&vs=c0j0h0k0l0u0t0z0r0s0m0f0&d=m)さんより、自分の住んでいる地域の偏角を調べます。他のサイトから予測値などを調べてきてもいいかもしれません。そして調べた偏角を7行目の`declination`に代入してください。
+
+<script src="https://gist.github.com/shirokuma-89/86387731ba17405b6faa2cff784a1c87.js"></script>
+
+※住所特定につながるといけないため、上記のプログラムに入力されている偏角の値は実際の僕の環境の値ではなく、それっぽいものを適当に入れています。
