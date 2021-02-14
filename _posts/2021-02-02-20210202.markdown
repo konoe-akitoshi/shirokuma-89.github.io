@@ -2,7 +2,7 @@
 layout: post
 title:  "Nucleoで地磁気を読み取るの巻"
 date:   2021-02-02
-image:  012/top.jpg
+image:  011-020/012/top.jpg
 tags:  [STM32, VS Code, Platform IO]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "日本語ワープロ検定"
 date:   2021-01-26
-image:  009/top.jpg
+image:  001-010/009/top.jpg
 tags:  [雑記]
 ---
 

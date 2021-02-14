@@ -2,7 +2,7 @@
 layout: post
 title:  "フォトコンテスト"
 date:   2021-01-29
-image:  010/top.jpg
+image:  001-010/010/top.jpg
 tags:  [一眼レフ]
 ---
 

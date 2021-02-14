@@ -2,7 +2,7 @@
 layout: post
 title:  "岐阜ブロック交流会"
 date:   2021-01-17
-image:  008/top.jpg
+image:  001-010/008/top.jpg
 tags:  [ロボット製作]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Pythonでおみくじをつくろう"
 date:   2021-01-06
-image:  006/top.jpg
+image:  001-010/006/top.jpg
 tags:  [Python]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "VS CodeとArduinoが喧嘩した話"
 date:   2021-01-04
-image:  004/top.jpg
+image:  001-010/004/top.jpg
 tags:  [Arduino, VS Code]
 ---
 遅くなりましたが、あけましておめでとうございます！しろくま＠胡瓜です。
@@ -13,7 +13,7 @@ tags:  [Arduino, VS Code]
 
 自分はVS CodeにArduino拡張機能を入れてArduinoのプログラミングを行っているのですが、先日コンパイルしてみると、こんな現象が起こりました。
 
-![]({{site.baseurl}}/img/004/001.png)
+![]({{site.baseurl}}/img/001-010/004/001.png)
 
 文字化けしてます(´;ω;｀)
 
@@ -50,7 +50,7 @@ vsciot-vscode.vscode-arduino-hogehoge
 
 そして、VS Codeを再起動して再コンパイルしてみると
 
-![]({{site.baseurl}}/img/004/002.png)
+![]({{site.baseurl}}/img/001-010/004/002.png)
 
 勝利です！
 

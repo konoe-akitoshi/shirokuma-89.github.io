@@ -2,7 +2,7 @@
 layout: post
 title:  "Google先生に求愛した話"
 date:   2021-01-16
-image:  005/top.jpg
+image:  001-010/005/top.jpg
 tags:  [GitHub,Google]
 ---
 こんにちは！しろくま＠胡瓜です！
@@ -21,23 +21,23 @@ tags:  [GitHub,Google]
 
 結果がこちら。
 
-![]({{site.baseurl}}/img/005/001.png)
+![]({{site.baseurl}}/img/001-010/005/001.png)
 
 ありがたいことに解決策を提示してくれました。
 
-![]({{site.baseurl}}/img/005/002.png)
+![]({{site.baseurl}}/img/001-010/005/002.png)
 
 こんな感じのサイトでした。すでにGoogleアカウントは取得＆ログイン済みですので、こちらの「URLプリフィックス」というところに、`https://shirokuma-89.github.io/`を入力してみます。
 
 {: align="center"}
-![]({{site.baseurl}}/img/005/003.png)
+![]({{site.baseurl}}/img/001-010/005/003.png)
 
 サイトの所有権を確認したいそうです。HTMLタグを選択し、自分のサイトの`head.html`にmetaタグをコピペします。
 
 コピペしてPushした後に確認を押すと...
 
 {: align="center"}
-![]({{site.baseurl}}/img/005/004.png)
+![]({{site.baseurl}}/img/001-010/005/004.png)
 
 出来ました！ただし、すぐに検索しても検索結果は表示されないようです。
 
@@ -47,7 +47,7 @@ tags:  [GitHub,Google]
 
 サイトマップというものを送らないと、どんなサイトなのか理解してくれないそうです。サイトマップ自体はJekyllが自動的に作成してくれるので、リンクだけGoogleに伝えてあげます。ちなみに今更ですが、参考までにこのブログのサイトマップは[これ](https://shirokuma-89.github.io/sitemap.xml)です。
 
-![]({{site.baseurl}}/img/005/005.png)
+![]({{site.baseurl}}/img/001-010/005/005.png)
 
 最初は上手く読み込まれず悩んでいたのですが、**robots.txtにサイトマップのURLを書き加える**ことで解決できました。
 
@@ -55,7 +55,7 @@ tags:  [GitHub,Google]
 
 Google先生にindex登録をリクエストしてみます。
 
-![]({{site.baseurl}}/img/005/006.png)
+![]({{site.baseurl}}/img/001-010/005/006.png)
 
 画面上部の検索バー（画像にはうつっていません）に自分のサイトのアドレスを入れて、index登録されているか確認し、登録されていなかった場合、リクエストします。これをしてからがとてもとても長かったです。
 
