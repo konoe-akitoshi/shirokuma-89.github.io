@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "NucleoでSPI通信"
+date:   2021-03-04
+image:  011-020/017/top.jpg
+tags:  [STM32,PlatformIO]
+---
+
+こんばんは！しろくま＠胡瓜です。僕も先日卒業式がありましたが、なんか感じるものがありますね。春だなって気がします。
+
+## 概要
+
+今日はPlatformIOとNucleoでSPI通信をする時に色々戸惑ったので、忘備録として載せておきます。言語はおなじみArduinoです。
+
+## 環境
+
+- macOS Big Sur 11.2.2
+- VS Code 1.53.2
+- Nucleo F446-RE
+- 寝起きの白熊
+
+## 実践
+
+とりあえず手軽に、自分で自分にデータを送るプログラムを作ってみました。
+
+回路はNucleoのD12（MISO）とD11（MOSI）をジャンパーするだけです。プログラムはこちらです。"C"を自分自身に送信しています。シリアルモニタを開いて`sent:`と`read:`が一致したら通信が成功してます。
+
+<script src="https://gist.github.com/shirokuma-89/8d34d4e4ae10251e60df75d68b6b39e0.js"></script>
+
+無事動きました。でも本題はここからです。
+
+## 真実は一つじゃない
+
+なんということでしょう…。
+
+> Up to four SPIs (45 Mbits/s), three with muxed I2S for audio class accuracy via internal audio PLL or external clock — [STさん公式](https://www.st.com/en/microcontrollers-microprocessors/stm32f446re.html)より
+
+NucleoにはSPIを利用可能なピンが、まだまだあるのです。
+
+利用方法ですが、ライブラリの中を色々とのぞいているうちに判明したので載せておきます。
+
+
+1. 使うピン番号を分かり易いように`#define`しておく。（const intのほうがいいかも←未検証）
+2. 新規でクラスからオブジェクトを作成する。
+
+これだけでできました。下にプログラム載せておきます。自分はSPI3を使ったので、それぞれD3 - D5に設定しています。`SPI3`っていう名前でオブジェクトを作成しようとしたら、コンフリクトして怒られたので、`SPI_3`になってます。
+
+<script src="https://gist.github.com/shirokuma-89/74b5f26396b164818970a2f720f4f74e.js"></script>
+
+## おわりに
+
+このSPIの問題は需要ありそうで、意外と情報が出回っていなかったので苦労しました。STM32をArduinoISP（ならぬNucleo ISP笑）として使う時とかに使えそうです。
