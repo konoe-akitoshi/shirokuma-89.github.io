@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "郡上ロボットクラブの年度末回"
+date:   2021-03-13
+image:  011-020/019/top.jpg
+tags:  [ロボット製作]
+---
+
+こんばんは！しろくま＠胡瓜です。だいぶ暖かくなってきましたね。着こまなくても心地よく生活できるようになりました。これはつかの間で、気づいたら汗だくだくの夏がやってきます。僕の住処の氷もやる気もとけていきます。
+
+## 郡上ロボットクラブ
+
+郡上市でロボット製作をしている人やロボットをはじめたての人など幅広い層が集まるクラブです。僕たちRoot41も郡上と昔から交流があります。友達でもありライバルでもあり。勝手ながらリンク張っておきます。
+
+[郡上ロボットクラブ](http://gujorobo.blogspot.com)
+
+## 年内最後
+
+3月ということで今日が年内最後の交流会でした。とりあえずロボットを走らせたり、ロボットを見せあったりとロボカッパーあるあるをやりました。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">郡上ロボットクラブにお邪魔中 <a href="https://t.co/ux8VzTtaJa">pic.twitter.com/ux8VzTtaJa</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1370616015495688196?ref_src=twsrc%5Etfw">March 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+また、バッテリーを充電中は机から離れられない＆暇だったので、ほこり掃除も兼ねて解体ショーをしました。意外と人が集まってきてくれたので嬉しかったです。解体ショーができるぐらいのメンテナンス性の良さは実試合においてもすごく重要だと思うので設計時はいつも意識しています。ドライバー1本とラジオペンチしか持っていきませんでしたが問題なく、分解することができました。
+
+## 進学
+
+郡上ロボットクラブにも僕と同い年の人が多くいて、中学校という一つの節目を通過したということで色々と思い出ビデオを見たりしました。会ったばかりの時の小さい頃の動画も~~ちょっと恥ずかしいシーン盛りだくさんでしたが~~面白かったです。
+
+そしてこんなものをもらいました。
+
+![]({{site.baseurl}}/img/011-020/019/001.jpg)
+
+将来オープンに参加するときに~~（参加するかわかりませんが）~~使わせていただきます。なんかゴルフボールに今後変わっていくらしいですね。
+
+## その前日
+
+岐阜ブロック大会の時に内部の配線が壊れてしまっていました。UIボードとCPUボードを橋渡しするフラットケーブルが取れてしまっていたのです。直で半田付けしていたので、フラットケーブルを剥き直すのが億劫でほったらかしにしていました。
+
+![]({{site.baseurl}}/img/011-020/019/002.jpg)
+
+ひねくれ者の僕はどうしても**この被膜を剥き直す**という作業が嫌で嫌で仕方がなかったので、試行錯誤してワイヤーストリッパーなしで被膜を一気に剥ける方法を見つけました。
+
+<center>
+
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">How to フラットケーブルの剥き方 <a href="https://t.co/MTLpx3XB4I">pic.twitter.com/MTLpx3XB4I</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1370358464367652867?ref_src=twsrc%5Etfw">March 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-theme="dark"><p lang="ja" dir="ltr">用意するもの<br>・剥きたいケーブル<br>・MILコネクタのオス <a href="https://t.co/hm61xs5AbT">pic.twitter.com/hm61xs5AbT</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1370358884955615233?ref_src=twsrc%5Etfw">March 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-theme="dark"><p lang="ja" dir="ltr">STEP1<br>ラジオペンチでケーブルをコネクタの金属部分に押し付ける <a href="https://t.co/yqWMRfWv0P">pic.twitter.com/yqWMRfWv0P</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1370359389807202304?ref_src=twsrc%5Etfw">March 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-theme="dark"><p lang="ja" dir="ltr">STEP2<br>それを両面やってこんな感じにする <a href="https://t.co/zQ78QXDrsE">pic.twitter.com/zQ78QXDrsE</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1370359595747577856?ref_src=twsrc%5Etfw">March 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-theme="dark"><p lang="ja" dir="ltr">STEP3<br>ついた跡に沿ってナイフとかカッターで切れ込みを入れる <a href="https://t.co/qfS8kBIXzp">pic.twitter.com/qfS8kBIXzp</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1370359908785291270?ref_src=twsrc%5Etfw">March 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-theme="dark"><p lang="ja" dir="ltr">STEP3<br>ついた跡に沿ってナイフとかカッターで切れ込みを入れる <a href="https://t.co/qfS8kBIXzp">pic.twitter.com/qfS8kBIXzp</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1370359908785291270?ref_src=twsrc%5Etfw">March 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+
+これで一気に作業が効率化されました。よかったです。
+
+## 振り返り
+
+突然祖父から送られてきた某カブトガニロボットから発展して、こんなに長くロボットを続けるだなんて当時は想像もできませんでした。これからもわくわくするような美しい設計を意識して（=今は全然できてないorz）ソフト担当の[ハジメ君](https://twitter.com/akapon03_hazime)をぎゃふんと言わせようと思います。
+
+**は、ハードウェア担当だって、負けないんだからね！！(＞人＜;)**
