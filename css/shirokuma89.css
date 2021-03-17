@@ -148,3 +148,20 @@
 .highlight .nt {
   color: rgb(149, 93, 196);
 }
+
+table{
+  width: 100%;
+  border-spacing: 0;
+}
+
+table th{
+  border-bottom: solid 2px #239e7f;
+  padding: 10px 0;
+}
+
+table td{
+  border-bottom: solid 1px rgb(68, 68, 68);
+  /* text-align: center; */
+  padding: 10px 0;
+  padding-left: 10px;
+}
