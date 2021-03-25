@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arduinoライブラリをつくった話"
-date:   2021-03-26　+0900
+date:   2021-03-26 +0900
 image:  021-030/023/top.png
 tags:  [Arduino, STM32]
 ---
