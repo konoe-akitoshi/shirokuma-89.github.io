@@ -186,3 +186,7 @@ table td {
   border: none !important;
   color: rgb(149, 93, 196);
 }
+
+.Repo {
+  filter: hue-rotate(180deg)invert(100%)contrast(80%);
+}
