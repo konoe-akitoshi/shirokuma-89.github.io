@@ -190,3 +190,20 @@ table td {
 .Repo {
   filter: hue-rotate(180deg)invert(100%)contrast(80%);
 }
+
+/* .pc {
+  display: none !important;
+}
+
+.mobile {
+  display: block !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .pc {
+    display: block !important;
+  }
+  .mobile {
+    display: none !important;
+  }
+} */
