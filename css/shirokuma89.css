@@ -191,7 +191,7 @@ table td {
   filter: hue-rotate(180deg)invert(100%)contrast(80%);
 }
 
-/* .pc {
+.pc {
   display: none !important;
 }
 
@@ -206,4 +206,4 @@ table td {
   .mobile {
     display: none !important;
   }
-} */
+}
