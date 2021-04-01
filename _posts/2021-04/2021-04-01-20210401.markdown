@@ -1,0 +1,94 @@
+---
+layout: post
+title:  "やりたいこと整理"
+date:   2021-04-01
+image:  021-030/024/top.jpg
+tags:  [ロボット製作]
+---
+
+こんばんは。しろくま＠胡瓜です。今日は布団の上でゴロゴロしながら更新です。先日実はこのブログのモバイル表示のUI改善を行いました。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">しろくま＠胡瓜’s Blogのデザインをモバイル表示を主に修正しました。<a href="https://t.co/KGkq9oxxHK">https://t.co/KGkq9oxxHK</a> <a href="https://t.co/RbTcSX5z8V">pic.twitter.com/RbTcSX5z8V</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1376441094968287234?ref_src=twsrc%5Etfw">March 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+ちなみにこのモックアップ画像はApple Developerのサイトから落とした画像をAffinity Desigenerで編集したのですが、結構作るの大変でした…。
+
+## 2021がきた
+
+今日は4月1日です。新年度が始まりました。
+
+今年は僕は進学の年なので環境がガラッと変わります。楽しみでもあり不安でもあり。新たなことに挑戦してみようかなとも思ったり。今日は挑戦が記事のテーマです。
+
+## やりたいことリスト
+
+年度末に振り返って「結局僕は何がやりたかったのだろう。」と虚無感におそわれるのももったいない時間の過ごし方なので、今年度やりたいことをリストアップしてみようと思います。公に宣言しておくことで「達成しなければならない」という義務感の向上が主な理由です。いわゆる背水の陣ですね。
+
+### RCJJ関連
+
+- BLDCを触ってみたい
+- 全方位カメラを載せたい
+- ロボット間無線通信をしたい
+- サブマイコンの搭載で処理の並列化をしたい
+- ドリブラーをやってみたい
+- STM32マイコンに移行したい
+- NeoPixel大量搭載
+- 空冷モータードライバ
+
+こんなところでしょうか。重量や技術的な問題で試合機に搭載するかは別として、とりあえず食わず嫌いせずに一度はさまざまな技術にチャレンジしてみたいと思います。去年と同じことを繰り返すだけなのも面白くないので。
+
+特にSTM32マイコンについてはこの春休み中にだいぶ知識がついた（とはいってもたかがしれてますが）ので積極的に採用していこうと思います。
+
+### 技術一般
+
+- ST-LinkのUSB-C化
+- RaspberryPiで何か作る
+- リフロー半田付け
+- Python
+- Swift
+
+これくらいですね。Pythonは去年本買ってから時間なくて全然できてないのでしっかり学んでおきたいです。今アツいですしね。
+
+Swiftは単純に興味があるだけです。この前Playgroundで遊んでみたんですが面白かったので勉強してみるのもありかなと思っています。そういえば、WWDC2021が告知されましたね。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">恩師が僕を沼に引きずり込んでから一年の節目となる行事が告知されたそうです。去年の被害者は僕でした。次はあなたの番です。是非一緒にどうぞ。<a href="https://t.co/PUcBqc21KZ">https://t.co/PUcBqc21KZ</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1377128404294660096?ref_src=twsrc%5Etfw">March 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+去年、恩師に誘われて**深夜2時**にアラームかけて見たのが懐かしいです。多分その誘いがなかったら今頃きっとAndroid機とWindows機使ってたと思います。人生変えられちゃいましたね。Apple万歳！
+
+ST-LinkのUSB-C化は単純に僕がUSB-C信者なだけです。NucleoがMini-Bなのがどうしても解せないのでちょっとなんとかしたいと思っています。
+
+### その他
+
+- REELを作りたい
+- フォトコンテストに何か作品を出してみたい
+- タイピング7key/sec突入したい
+
+こんなところですかね。REELっていうのは（ちょっと違いますが）動画版ポートフォリオみたいなものです。つまりそれだけいくつも動画作らないといけないということです。頑張ります。もし公開したときにはTwitterで告知するので僕のモチベ維持のためにみてくれたら嬉しいです。
+
+フォトコンテストは単純に一眼好きだからですね。タイピング7key/secは単純に目標です。去年ワープロ検定初段のために猛練習したのですが、一時的には出ることはあっても継続して7key/sec以上でタイピングすることはできなかったので今年こそと思ったのです。もはやここまでくると指が思考より先に動くようになります。自慢じゃないですが、この前寿司打3000円コースで9060円で順位4位を勝ち取りました！やったぜ！💪
+
+![]({{site.baseurl}}/img/021-030/024/001.png)
+
+## 番外編
+
+今日はエイプリルフールでした。もちろんこの記事を「エイプリルフールでしたwwこんな記事無かったことにする！（（（」みたいにするつもりは全くないです。
+
+でも冗談全く言えない人も面白くないですよね。ということでこんな意味深なツイートしてみました。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">今年はRoot41はキッカーもカメラもドリブラーもぜーんぶ載せます（）</p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1377406148823805952?ref_src=twsrc%5Etfw">March 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+するとこんな反応が。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">楽しみにしてまーす！！<br>わくわく😚</p>&mdash; のぞみーん🍮@unknown (@NOZOMI34615683) <a href="https://twitter.com/NOZOMI34615683/status/1377434194905731074?ref_src=twsrc%5Etfw">April 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">お <a href="https://t.co/3JVtVLIpWY">https://t.co/3JVtVLIpWY</a></p>&mdash; Tomix🍣 (@TomiXRM) <a href="https://twitter.com/TomiXRM/status/1377539359017115655?ref_src=twsrc%5Etfw">April 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+おっとっと、今日はエイプリルフールですよ忘れてませんか皆さん（）
+
+ちなみにこのツイートを「嘘でした」というつもりもありません。かといって「本当だよ！」と宣言するつもりもないです。さて嘘か本当かどちらでしょうか？
+
+僕からの現時点での回答はこちらです。
+
+{% highlight cpp %}
+return NULL;
+{% endhighlight %}
+
+ではみなさんおやすみなさい。
