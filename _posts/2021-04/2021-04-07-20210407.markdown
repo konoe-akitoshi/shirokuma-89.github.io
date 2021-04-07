@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "ATtinyにNucleoで書き込む"
+date:   2021-04-07
+image:  021-030/027/top.jpg
+tags:  [PlatformIO,STM32]
+---
+
+こんにちは！しろくま＠胡瓜です。
+
+寮生活三日目です。友達も徐々にできてきていい感じです。寮食堂のご飯も美味しいよ！
+
+寮に色々暇しないようにおもちゃを大量にもってきています。~~だって持ち込んじゃダメって書いてない…。~~
+
+![]({{site.baseurl}}/img/021-030/027/001.jpg)
+
+ちなみにこれはごく一部。
+
+## 概要
+
+ATtiny85っていう8ピンのマイコンがあって、それが結構有能なんです。例えばちょっと時間がかかる系の処理（超音波センサとか）やその他色々とかを任せるのにちょうどいいです。安いですしね。
+
+もちろんUSBポートなんてあるわけないのでArduinoとかを使ってSPI接続で書き込むことになります。僕は最近はArduinoよりNucleo派なので折角なのでNucleoを使って書き込む方法を模索してみました。今回はATtiny85を使いますが、それ以外でも多分いけると思います。
+
+## Nucleo側の準備
+
+PlatformIOで新規プロジェクトを作成して以下のコードを書き込みます。これはArduinoISPのプログラムをNucleo用に移植したものです。フレームワークはArduinoにしてください。でら長いので頑張ってスクロールしてね。~~方言が出てしまった…。~~
+
+<script src="https://gist.github.com/shirokuma-89/c759728dd0699f9b9f0c24a8c5c437ea.js"></script>
+
+配線は
+
+| Nucleo側 | ATtiny85側 |
+| :------- | :--------- |
+| 3V3      | 8(VCC)     |
+| GND      | 4(GND)     |
+| 13(SCK)  | 7(SCK)     |
+| 12(MISO) | 6(MISO)    |
+| 11(MOSI) | 5(MOSI)    |
+| 10       | 1(RESET)   |
+
+でいいはずです。間違ってたら教えてください。
+
+Nucleo側はこれで完了です。
+
+## ATtiny側
+
+PlatformIOから新規プロジェクトを作るときに、ボード`Generic ATtiny85 (Atmel)`を選択して適当なプログラムを作ります。
+
+そして、`platformio.ini`を以下のように書き換えてください。
+
+<script src="https://gist.github.com/shirokuma-89/6381b22ef34a018e6653c165b2d812b7.js"></script>
+
+ATtiny85以外の人は`board`のところは使ってるやつに書き換えてください。
+
+`upload_port`のところは各自Nucleoが接続されてるポートを入力してください。わからない人は、ターミナルを開いて
+
+``` zsh
+$ ls -l /dev/tty.usb*
+```
+
+って叩けば分かると思います。
+
+## 書き込もう
+
+あとはいつもと同じ感じでアップロードすれば書き込まれるはずです。
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">ArduinoIDEを使わずにNucleo経由でATtiny85に書き込めました！！ <a href="https://t.co/s1EefBkgaW">pic.twitter.com/s1EefBkgaW</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1379688433514283015?ref_src=twsrc%5Etfw">April 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+## 終わりに
+
+折角なので近いうちにマイコン間SPI通信にも手を出したいな…という思いです。ではまた。
