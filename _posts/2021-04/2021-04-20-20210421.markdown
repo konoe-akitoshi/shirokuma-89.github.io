@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "AppleEventみた"
+date:   2021-04-21
+image:  031-040/031/top.jpg
+tags:  [Apple]
+---
+
+おはようございます。しろくま＠胡瓜です。
+
+今日はAppleEventがありましたね（朝なのに過去形）。みなさん見ましたか？僕はもちろん見ました。
+
+「え、そんなのいつあったの？」って人へ。**深夜2時から3時ごろ**までありました。実は深夜1時45分ぐらいに目覚ましかけて起きようと思ってたのですが、まさかの1時40分に自然に目が覚めるという現象が起きました。Appleが体内に組み込まれてしまった証拠でしょうか、やばいですね。
+
+## 発表されたもの
+
+そんなのは他のニュースサイトとかが書いてくれてると思うので割愛します。発表内容まとめは誰でもかけますが「僕の感想」は僕にしかかけないので。このブログ自体現在収益目的でもないですし。
+
+## 感想
+
+単純に技術革新を起こしてきたなって感じがしました。数年前まではAppleに限らずなんとなく「性能が上がりました！」とか「こんな機能ができました！」というように技術的に「向上」はあっても「革新」ってあんまりなかった印象があるんですよね。しかし最近は採用したM1だったり、デザインがガラッと変わったiPhone12だったり、カラフルなiMacが登場したりと1年前には想像もできなかったような目を見張る製品がどんどん登場してきている印象です。これからが楽しみですね。
+
+## 終わりに
+
+<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">最高でした！！！Appleさんありがとうございました🍎<a href="https://twitter.com/hashtag/AppleEvent?src=hash&amp;ref_src=twsrc%5Etfw">#AppleEvent</a> <a href="https://t.co/ogHPxv1Wwi">pic.twitter.com/ogHPxv1Wwi</a></p>&mdash; しろくま🥒胡瓜 Root41 (@robokichi41) <a href="https://twitter.com/robokichi41/status/1384568147462692869?ref_src=twsrc%5Etfw">April 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+めっちゃ楽しかったです。この世界を教えてくれた恩師には感謝しかありません。中学生の時期に優しい大人に宗教勧誘されたらこんな人間になりました。異動になったらしいですが、異動先の中学生がこんな被害に遭っていないことを祈ります（笑）
+
+「Apple!Apple!」と騒いでる僕ですが、別にもちろんWindowsとかが嫌いなわけじゃないです。僕はMacが好きです。だからMac使ってます。それだけのことです。
+
+1年後、Appleの作る世界はどうなっているのかなと思うとちょっと楽しみな白熊でした。ではコーヒー飲んで今日の講義乗り切ってきます…。ではまた。
